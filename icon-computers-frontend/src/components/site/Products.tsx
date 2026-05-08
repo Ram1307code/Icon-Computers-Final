@@ -114,13 +114,13 @@ const PRODUCTS = [
 
 const WHATSAPP_NUMBER = "919665405349";
 
-function getWhatsAppLink(productName: string) {
-  const message = `Hi Icon Computers, I need help with your ${productName}.`;
+function getQuoteLink() {
+  const message = "Hi Icon Computers, I need help with your products.";
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
-function getQuoteLink() {
-  const message = "Hi Icon Computers, I need help with your products.";
+function getWhatsAppForCategory(categoryName: string) {
+  const message = `Hi Icon Computers, I need help with your ${categoryName}.`;
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
 }
 
@@ -202,7 +202,7 @@ export function Products() {
                   </h3>
                   <p className="mt-2 text-xs leading-6 text-muted-foreground sm:text-sm">{p.desc}</p>
                   <a
-                    href={getWhatsAppLink(p.name)}
+                    href={getWhatsAppForCategory(p.name)}
                     target="_blank"
                     rel="noopener"
                     className="mt-4 inline-flex w-full items-center justify-center gap-1.5 rounded-lg bg-foreground px-4 py-2 text-xs font-semibold text-background transition-colors hover:bg-primary sm:text-sm"
@@ -236,14 +236,6 @@ export function Products() {
                           <p className="line-clamp-2 min-h-[2.5rem] text-xs font-semibold text-foreground sm:text-sm">
                             {item.name}
                           </p>
-                          <a
-                            href={getWhatsAppLink(`${p.name} - ${item.name}`)}
-                            target="_blank"
-                            rel="noopener"
-                            className="mt-3 inline-flex w-full items-center justify-center rounded-md border border-border px-3 py-1.5 text-[11px] font-semibold text-foreground transition-colors hover:border-primary hover:text-primary sm:text-xs"
-                          >
-                            Enquire
-                          </a>
                         </div>
                       </div>
                     ))}

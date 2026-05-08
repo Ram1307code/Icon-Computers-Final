@@ -76,7 +76,7 @@ export function Trust() {
 
           {/* Write Review */}
         <a
-  href="https://www.google.com/maps/search/?api=1&query=Icon+Computers+Kandivali&query_place_id=0x3be7b6b8edaaaabd:0xd38c66c98948170a"
+   href="https://www.google.com/search?sca_esv=3b16fbb1763a23f5&sxsrf=ANbL-n66DmemD7TsNPmCuGTfIFr4oCI2PQ:1777819568636&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOUoYJ-OYhtSiLcbCkfMHo-f5ooIIbfEqQts4EeHvlSldxih-5VEUf13p8dd0ZqgKyJlz639RVb-WW_lQcyax5VxOLb5p&q=Icon+Computers+Reviews&sa=X&ved=2ahUKEwjNy_P-rZ2UAxWmp1YBHS0oICIQ0bkNegQINhAH&biw=1536&bih=730&dpr=1.25"
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-3 rounded-full bg-primary text-white font-semibold shadow hover:scale-105 transition"
@@ -85,7 +85,7 @@ export function Trust() {
 </a>
           {/* View All Reviews */}
           <a
-            href="https://maps.app.goo.gl/GqanmsUr5fPgWh5r5"
+            href="https://www.google.com/search?sca_esv=3b16fbb1763a23f5&sxsrf=ANbL-n66DmemD7TsNPmCuGTfIFr4oCI2PQ:1777819568636&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOUoYJ-OYhtSiLcbCkfMHo-f5ooIIbfEqQts4EeHvlSldxih-5VEUf13p8dd0ZqgKyJlz639RVb-WW_lQcyax5VxOLb5p&q=Icon+Computers+Reviews&sa=X&ved=2ahUKEwjNy_P-rZ2UAxWmp1YBHS0oICIQ0bkNegQINhAH&biw=1536&bih=730&dpr=1.25"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 rounded-full border border-border font-semibold hover:bg-accent transition"

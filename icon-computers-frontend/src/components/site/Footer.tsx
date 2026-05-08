@@ -51,7 +51,7 @@ export function Footer() {
 
         <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-background/60">
           <div>© {new Date().getFullYear()} Icon Computers. All rights reserved.</div>
-          <div><a href ="https://workholicagency.vercel.app/" target="_blank">Made By Team Workholic  </a></div>
+          <div><a href ="https://workholiclabs.vercel.app/" target="_blank">Made By Team Workholic Labs  </a></div>
         </div>
       </div>
     </footer>

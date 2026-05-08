@@ -1,13 +1,15 @@
-import g1 from "@/assets/gallery-1.jpg";
-import g2 from "@/assets/gallery-2.jpg";
-import g3 from "@/assets/gallery-3.jpg";
-import g4 from "@/assets/gallery-4.jpg";
+import g1 from "@/assets/g1.png";
+import g2 from "@/assets/g2.png";
+import g3 from "@/assets/g3.png";
+import g4 from "@/assets/g4.png";
+import g5 from "@/assets/g5.png";
 
 const IMAGES = [
-  { src: g3, alt: "Laptops on display in Icon Computers shop", caption: "In-Store Laptops" },
-  { src: g1, alt: "Laptop motherboard repair", caption: "Expert Repairs" },
-  { src: g2, alt: "CCTV camera installation", caption: "CCTV Installation" },
-  { src: g4, alt: "Custom built gaming PC", caption: "Custom PC Builds" },
+  { src: g3, alt: "Laptops on display in Icon Computers shop", caption: "" },
+  { src: g1, alt: "Laptop motherboard repair", caption: "" },
+  { src: g2, alt: "CCTV camera installation", caption: "" },
+  { src: g4, alt: "Custom built gaming PC", caption: "" },
+  { src: g5, alt: "Custom built gaming PC", caption: "" },
 ];
 
 export function Gallery() {
