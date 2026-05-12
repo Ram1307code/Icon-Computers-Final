@@ -35,7 +35,7 @@ export function Trust() {
             What Our Customers Say
           </h2>
           <p className="mt-3 text-muted-foreground">
-            Rated 4.8★ by 80+ happy customers
+            Rated 4.8★ by 12000+ happy customers
           </p>
         </div>
 

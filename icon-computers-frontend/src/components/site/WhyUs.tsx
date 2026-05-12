@@ -4,7 +4,7 @@ const REASONS = [
   { icon: Zap, title: "Fast Service", desc: "Most repairs done same day. No long waits." },
   { icon: BadgeIndianRupee, title: "Affordable Pricing", desc: "Honest quotes — no hidden charges, ever." },
   { icon: ShieldCheck, title: "Genuine Products", desc: "100% original parts with proper warranty." },
-  { icon: MapPin, title: "Local & Trusted", desc: "Right here in Kandivali West for 5+ years." },
+  { icon: MapPin, title: "Local & Trusted", desc: "Right here in Kandivali West for 14+ years." },
   { icon: Clock, title: "Open 7 Days", desc: "Walk in any day — we're here when you need us." },
   { icon: Award, title: "Expert Technicians", desc: "Certified pros with 10+ years of experience." },
 ];
@@ -19,7 +19,7 @@ export function WhyUs() {
         <div className="max-w-2xl">
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">Why Choose Us</span>
           <h2 className="mt-2 text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
-            The reasons Mumbai keeps coming back.
+            The reasons Mumbai keeps coming back to Icon Computers.
           </h2>
         </div>
 

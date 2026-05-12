@@ -20,7 +20,7 @@ export function Footer() {
             </p>
             <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-sm">
               <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-              4.8 · 84+ Google reviews
+              4.8 · 88+ Google reviews
             </div>
           </div>
 
