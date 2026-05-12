@@ -107,7 +107,7 @@ export function Hero() {
               {
                 icon: Star,
                 label: "4.8★",
-                sub: "80+ Google reviews",
+                sub: "88+ Google reviews",
               },
               {
                 icon: ShieldCheck,
